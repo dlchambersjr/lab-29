@@ -47,7 +47,7 @@ Exports the children of Thing as established by Stuff.
 * No required tests
 
 #### UML
-[Assignment-1](https://github.com/dlchambersjr/lab-29/blob/master/assets/lab-29-1a.JPG)
+[Assignment-1](https://github.com/dlchambersjr/lab-29/blob/master/assets/lab-29-1a.jpg)
 
 #### UML - Add modular functions to assignment-1
-[Assignment-2](https://github.com/dlchambersjr/lab-29/blob/master/assets/lab-29-2a.JPG)
+[Assignment-2](https://github.com/dlchambersjr/lab-29/blob/master/assets/lab-29-2a.jpg)
