@@ -7,36 +7,47 @@
 
 ### Links and Resources
 * [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [Assignment-1](https://codesandbox.io/s/84v8x2n19l)
+* [Assignment-2](https://codesandbox.io/s/k542j26mzr)
 
-### Modules
-#### `modulename.js`
+### Assignment 1 Modules
+#### `index.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `class App`
+Renders the content of the Stuff class
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `class Stuff`
+returns the content of the Things class
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+###### `class Things`
+returns the children of the Things class as established by Stuff class.
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+
+### Assignment 2 Modules
+#### `index.js`
+##### Exported Values and Methods
+
+###### `class App`
+Exports the content of Stuff
+
+#### `stuff.js`
+##### Exported Values and Methods
+
+###### `class Stuff`
+Exports the content of Things
+
+#### `things.js`
+##### Exported Values and Methods
+
+###### `class Thing`
+Exports the children of Thing as established by Stuff.
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* No required tests
 
 #### UML
-Link to an image of the UML for your application and response to events
+[Assignment-1](https://github.com/dlchambersjr/lab-29/blob/master/assets/lab-29-1a.JPG)
+
+#### UML - Add modular functions to assignment-1
+[Assignment-2](https://github.com/dlchambersjr/lab-29/blob/master/assets/lab-29-2a.JPG)
